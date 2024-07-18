@@ -2754,6 +2754,17 @@ gs_platform_set_window_positionv(uint32_t handle, gs_vec2 v)
 {
 }
 
+GS_API_DECL void
+gs_platform_window_set_clipboard(uint32_t handle, const char* str)
+{
+}
+
+GS_API_DECL const char* 
+gs_platform_window_get_clipboard(uint32_t handle)
+{
+    return NULL;
+}
+
 GS_API_DECL void     
 gs_platform_set_cursor(uint32_t handle, gs_platform_cursor cursor)
 {
